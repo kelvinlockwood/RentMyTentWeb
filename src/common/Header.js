@@ -9,9 +9,6 @@ import Link from '@material-ui/core/Link';
 // Logo Image
 import Logo from '../images/logo/Rent-my-tent.svg';
 
-// Common
-import { GLOBALS } from '../utils/globals';
-
 // Custom Theme
 import useLandingStyles from '../layout/styles/landing.styles';
 
@@ -39,7 +36,7 @@ const Header = ({siteTitle, onRedirect}) => {
                         How it works
                     </Link>
 
-                    <Link href="#" className={classes.heroMenuLink} onClick={onRedirect(`${GLOBALS.APP_ROOT}/list`)}>
+                    <Link href="#" className={classes.heroMenuLink} onClick={onRedirect('appredirect')}>
                         Get Started
                     </Link>
                 </div>

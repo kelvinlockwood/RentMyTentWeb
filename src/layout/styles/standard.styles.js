@@ -9,6 +9,9 @@ export default makeStyles(theme => {
         contentContainer: {
             minHeight: '70vh',
         },
+        contentPaper: {
+            width: '100%',
+        },
 
         bareList: {
             '&, & ul': {
